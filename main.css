@@ -71,7 +71,7 @@ nav li a {
 
 section {
     padding: 48px 0;
-    margin-bottom: 48px; /* Adiciona espaço entre as seções */
+    margin-bottom: 48px; 
 }
 
 section h2 {
@@ -80,9 +80,9 @@ section h2 {
 
 .lista-veiculos {
     display: flex;
-    flex-wrap: wrap; /* Permite que os itens se ajustem em várias linhas */
-    gap: 20px; /* Ajusta o espaço entre os itens */
-    justify-content: space-between; /* Garante que haja espaço entre os itens */
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-between; 
 }
 
 .lista-veiculos li {
@@ -91,19 +91,19 @@ section h2 {
     max-width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Isso ajuda a distribuir o espaço uniformemente */
-    height: 400px; /* Defina uma altura fixa para cada item da lista */
+    justify-content: space-between; 
+    height: 400px; 
 }
 
 .lista-veiculos li img {
     max-width: 100%;
-    height: 200px; /* Defina uma altura fixa para as imagens */
-    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    height: 200px;
+    object-fit: cover; 
 }
 
 .lista-veiculos li h3 {
     margin: 16px 0;
-    flex-grow: 1; /* Isso permite que o h3 ocupe o espaço disponível e mantenha uma distância consistente do botão */
+    flex-grow: 1; 
 }
 
 .lista-veiculos button {
