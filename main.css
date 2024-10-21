@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #192a56;
+    padding-top: 16px;
+    color: #fff;
+}
+
+header > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color: #575fcf;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-loja img {
+    width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+    margin-bottom: 48px; /* Adiciona espaço entre as seções */
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.lista-veiculos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se ajustem em várias linhas */
+    gap: 20px; /* Ajusta o espaço entre os itens */
+    justify-content: space-between; /* Garante que haja espaço entre os itens */
+}
+
+.lista-veiculos li {
+    list-style: none;
+    flex: 1 1 30%;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Isso ajuda a distribuir o espaço uniformemente */
+    height: 400px; /* Defina uma altura fixa para cada item da lista */
+}
+
+.lista-veiculos li img {
+    max-width: 100%;
+    height: 200px; /* Defina uma altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+}
+
+.lista-veiculos li h3 {
+    margin: 16px 0;
+    flex-grow: 1; /* Isso permite que o h3 ocupe o espaço disponível e mantenha uma distância consistente do botão */
+}
+
+.lista-veiculos button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #192a56;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 16px;
+}
+
+.lista-veiculos button:hover {
+    background-color: #575fcf;
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    color: #0000009d;
+    font-size: 14px;
+}
